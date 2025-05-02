@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "minseo-1.21.1",
+      "name": "minseo",
+      "description": "minseo Running Minecraft 1.21.1 (Fabric v0.16.14)",
+      "icon": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/serverIMG.png",
+      "version": "1.0.0",
+      "address": "standard-6.alcl.cloud:21818",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "b786111f36c91fa857f0cd5843b4753b",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/versions/1.21.1-fabric-0.16.14/1.21.1-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:21.0.20@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 431021,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/balm-fabric-1.21.1-21.0.20.jar",
+            "MD5": "18fc359ca6a56a42e153a2f85ea6138b"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.21@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1007136,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/continuity-3.0.0-beta.5+1.21.jar",
+            "MD5": "cd7dbc5efe7f19078ef7609a323e347a"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.21-2.7@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23787,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/cupboardfabric-1.21-2.7.jar",
+            "MD5": "7cdbe4e5ec76f72962c9bd0ad2edd927"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:21.1.1@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 91442,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/defaultoptions-fabric-1.21.1-21.1.1.jar",
+            "MD5": "4e0ab6295fc79e1a3a532122bd81a5dc"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.106.0+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2338306,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/fabric-api-0.106.0+1.21.1.jar",
+            "MD5": "463664735eeab312917c73b001dbd528"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.35+mc1.21@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105000,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/indium-1.0.35+mc1.21.jar",
+            "MD5": "db92c620cb72a41403b928a0b45955d0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.0-beta.4+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2659716,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/iris-fabric-1.8.0-beta.4+mc1.21.1.jar",
+            "MD5": "030075230b3656cf86d0aabba17d74c1"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.28@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3397422,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/journeymap-fabric-1.21.1-6.0.0-beta.28.jar",
+            "MD5": "792085cb05c83a51944109dd55613e55"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.0@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11909250,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/plasmovoice-fabric-1.21-2.1.0.jar",
+            "MD5": "603859520139f3ab769fdcca7a485ee1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.0-beta.4+mc1.21.1@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79797,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/reeses-sodium-options-fabric-1.8.0-beta.4+mc1.21.1%20(1).jar",
+            "MD5": "597cfe2c4a42c2fa55c40ddca4c83a42"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.0-beta.2+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1266516,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/sodium-fabric-0.6.0-beta.2+mc1.21.1.jar",
+            "MD5": "b08f626a6cee1fc3b3f42760c8046e5f"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.21.1@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 139442,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/WI-Zoom-1.5-MC1.21.1.jar",
+            "MD5": "37607f327e106769bb035fd70d586269"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09p1.zip",
+          "name": "BSL_v8.2.09p1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 953414,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/files/shaderpacks/BSL_v8.2.09p1.zip",
+            "MD5": "612496c6a0ae763bc996f860ca6e1f2e",
+            "path": "shaderpacks/BSL_v8.2.09p1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip",
+          "name": "ComplementaryReimagined_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409956,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
+            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
+            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1.zip",
+          "name": "ComplementaryUnbound_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "file:///D:/helios/minseo/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "minseo",
+    "description": "minseo Running Minecraft 1.21.1 (Fabric v0.16.14)",
+    "icon": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/serverIMG.png",
+    "address": "standard-6.alcl.cloud:21818",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.14"
+  },
+  "untrackedFiles": [
+	{
+		"appliesTo": ["files"],
+		"patterns": [
+		  "options.txt",
+		  "servers.dat"
+		]
+	}
+  ]
+}

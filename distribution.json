@@ -270,7 +270,7 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 107,
+            "size": 95,
             "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/files/servers.dat",
             "path": "servers.dat"
           }

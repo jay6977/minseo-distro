@@ -12,7 +12,7 @@
       "name": "minseo",
       "description": "minseo Running Minecraft 1.21.1 (Fabric v0.16.14)",
       "icon": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/serverIMG.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "103.244.117.217",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -270,9 +270,21 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 95,
+            "size": 3492,
             "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/files/servers.dat",
+            "MD5": "6405020db24fe4326c026cde5952b847",
             "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 3482,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/files/servers.dat_old",
+            "MD5": "f78f7c8c445e9785b479a919f357ff70",
+            "path": "servers.dat_old"
           }
         },
         {

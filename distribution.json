@@ -12,8 +12,8 @@
       "name": "minseo",
       "description": "minseo Running Minecraft 1.21.1 (Fabric v0.16.14)",
       "icon": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/serverIMG.png",
-      "version": "1.0.1",
-      "address": "standard-6.alcl.cloud:21818",
+      "version": "1.0.2",
+      "address": "103.244.117.217",
       "minecraftVersion": "1.21.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -216,13 +216,13 @@
           }
         },
         {
-          "id": "su.plo.voice:plasmovoice:2.1.0@jar",
+          "id": "su.plo.voice:plasmovoice:2.1.5@jar",
           "name": "Plasmo Voice",
           "type": "FabricMod",
           "artifact": {
-            "size": 11909250,
-            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/plasmovoice-fabric-1.21-2.1.0.jar",
-            "MD5": "603859520139f3ab769fdcca7a485ee1"
+            "size": 12185459,
+            "url": "https://raw.githubusercontent.com/jay6977/minseo-distro/main/servers/minseo-1.21.1/fabricmods/required/plasmovoice-fabric-1.21-2.1.5.jar",
+            "MD5": "32a1de045f7e8582a27a5389f2c712c8"
           }
         },
         {
